@@ -100,7 +100,7 @@ public class PlayerManager : MonoBehaviour
 
         switch (other.tag)
         {
-            case "Red":
+            case "red":
                 other.gameObject.SetActive(false);
                 Ballmats[1] = other.GetComponent<Renderer>().material;
                 BallRenderer.materials = Ballmats;
@@ -110,7 +110,7 @@ public class PlayerManager : MonoBehaviour
                 BallTrailColor.colorOverLifetime = other.GetComponent<Renderer>().material.color;
                 break;
             
-            case "Green":
+            case "green":
                 other.gameObject.SetActive(false);
                 Ballmats[1] = other.GetComponent<Renderer>().material;
                 BallRenderer.materials = Ballmats;
@@ -120,7 +120,7 @@ public class PlayerManager : MonoBehaviour
                 BallTrailColor_1.colorOverLifetime = other.GetComponent<Renderer>().material.color;
                 break;
             
-            case "Yellow":
+            case "yellow":
                 other.gameObject.SetActive(false);
                 Ballmats[1] = other.GetComponent<Renderer>().material;
                 BallRenderer.materials = Ballmats;
@@ -130,7 +130,7 @@ public class PlayerManager : MonoBehaviour
                 BallTrailColor_2.colorOverLifetime = other.GetComponent<Renderer>().material.color;
                 break;
             
-            case "Blue":
+            case "blue":
                 other.gameObject.SetActive(false);
                 Ballmats[1] = other.GetComponent<Renderer>().material;
                 BallRenderer.materials = Ballmats;
